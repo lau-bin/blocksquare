@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "traceResolution": false,
+        "module": "ESNext",
+        "outDir": "dist",
+        "allowJs": true,
+        "moduleResolution": "Bundler",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "target": "ESNext",
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "jsx":"react",
+        "alwaysStrict": true,
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+    },
+    "include": [
+        "src/**/*"
+    ],
+}
